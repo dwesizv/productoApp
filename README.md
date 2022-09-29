@@ -3,9 +3,7 @@
 Contenido del archivo .env
 
     APP_NAME=Producto
-    APP_ENV=local
-    APP_KEY=base64:BgJJKFS8+tsMIyFEzDP7W4nz5aFth43i7i9a0m1pFKE=
-    APP_DEBUG=true
+    ...
     APP_URL=https://USUARIO.ies...s.es/laraveles/productoApp/public/
     ...
     DB_CONNECTION=mysql
