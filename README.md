@@ -1,5 +1,17 @@
 # productoApp
 
+La forma más sencilla de descargar la aplicación es hacerlo desde la consola de cloud9:
+
+    git clone https://github.com/dwesizv/productoApp.git
+
+Una vez descargada la aplicación de github, hay que asegurar que se instalen todas las dependencias de la aplicación:
+
+    composer install
+ 
+Luego será necesario crear el archivo .env, para ello se puede renombrar el archivo .env.example a .env y después editar las líneas en las
+que se definen la base de datos, el usuario y la clave de acceso. También es conveniente definir de forma correcta el valor de la variable
+APP_URL, para ello se le debe indicar la ruta completa hasta la carpeta public de la aplicación.
+
 Contenido del archivo .env:
 
     APP_NAME=Producto
@@ -14,6 +26,10 @@ Contenido del archivo .env:
     DB_USERNAME=uproductoL
     DB_PASSWORD=cproductoL
 
+Por último, quedaría crear la tablas de la base de datos, esto también se tiene que hacer desde la consola:
+ 
+     php artisan migrate
+
 Se han editado los archivos estrictamente necesarios para el funcionamiento de la aplicación:
 
 [app/Http/Controllers/MainController.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Controllers/MainController.php)  
@@ -26,15 +42,5 @@ Se han editado los archivos estrictamente necesarios para el funcionamiento de l
 [resources/views/*](https://github.com/dwesizv/productoApp/tree/main/resources/views)  
 [routes/web.php](https://github.com/dwesizv/productoApp/blob/main/routes/web.php)  
 
-Una vez descargada la aplicación de github, hay que asegurar que se instalen todas las dependencias de la aplicación:
-
-    composer install
  
- Luego será necesario crear el archivo .env, para ello se puede renombrar el archivo .env.example a .env y después editar las líneas en las
- que se definen la base de datos, el usuario y la clave de acceso. También es conveniente definir de forma correcta el valor de la variable
- APP_URL, para ello se le debe indicar la ruta completa hasta la carpeta public de la aplicación.
- 
- Por último, quedaría crear la tablas de la base de datos, esto también se tiene que hacer desde la consola:
- 
-     php artisan migrate
  
