@@ -3,12 +3,13 @@
 Contenido del archivo .env
 
     APP_NAME=Producto
+    
     ...
+    
     APP_URL=https://USUARIO.ies...s.es/laraveles/productoApp/public/
+    
     ...
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
+    
     DB_DATABASE=productoL
     DB_USERNAME=uproductoL
     DB_PASSWORD=cproductoL
