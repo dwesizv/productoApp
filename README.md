@@ -34,6 +34,7 @@ Se han editado los archivos estrictamente necesarios para el funcionamiento de l
 
 [app/Http/Controllers/MainController.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Controllers/MainController.php)  
 [app/Http/Controllers/ProductoController.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Controllers/ProductoController.php)  
+[app/Http/Requests/ProductoEditRequest.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Requests/ProductoEditRequest.php)  
 [app/Http/Middleware/UserLogged.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Middleware/UserLogged.php)  
 [app/Http/Kernel.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Kernel.php)  
 [app/Models/Producto.php](https://github.com/dwesizv/productoApp/blob/main/app/Models/Producto.php)  
