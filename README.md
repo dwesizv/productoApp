@@ -30,6 +30,10 @@ Por último, quedaría crear la tablas de la base de datos, esto también se tie
  
      php artisan migrate
 
+Por último, falta asignar adecuadamente los permisos de la carpetas de la aplicación:
+
+    chown -R www-data *
+
 Se han editado los archivos estrictamente necesarios para el funcionamiento de la aplicación:
 
 [app/Http/Controllers/MainController.php](https://github.com/dwesizv/productoApp/blob/main/app/Http/Controllers/MainController.php)  
